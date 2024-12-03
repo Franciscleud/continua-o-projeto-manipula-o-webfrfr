@@ -1,0 +1,218 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #cfd6e2;
+    color: #181818;
+    line-height: 1.6;
+}
+
+header {
+    background-image: url(https://images.unsplash.com/photo-1464983953574-0892a716854b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D); 
+    background-size: cover; 
+    background-position: center; 
+    color: white; 
+    text-align: center; 
+    padding: 50px 0; 
+}
+
+header h1 {
+    margin: 0; 
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li  {
+    color: rgb(50, 50, 50);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    background-image: url(https://images.unsplash.com/photo-1714182132440-6e3fe59e43b8?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D); 
+    background-size: cover; 
+    background-position: top; 
+    background-repeat: no-repeat; 
+    padding: 50px; 
+    color: rgb(13, 13, 13); 
+    min-height: 600px; 
+    box-sizing: border-box;
+}
+
+
+main h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: rgb(146, 176, 240);
+    border-radius: 10px;
+    padding: 20px; 
+    max-width: 800px; 
+    margin: 0 auto 20px; 
+}
+
+main p {
+    background-color: rgba(0, 0, 0, 0.6); 
+    color: white; 
+    padding: 20px; 
+    border-radius: 10px; 
+    margin-bottom: 20px; 
+    max-width: 800px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+
+img {
+    max-width: 800px; 
+    width: 100%; 
+    display: block; 
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 30px; 
+    margin-bottom: 30px; 
+    
+}
+
+
+iframe {
+    width: 100%;
+    height: 400px;
+    border: 0;
+}
+
+footer {
+    text-align: center;
+    background-color: #031b34;
+    color: white;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+.resize-image {
+    width: 800px; 
+    height: 350px; 
+    object-fit: cover; 
+    border-radius: 15px;
+   }
+    nav ul {
+        list-style-type: none; 
+        padding: 0; 
+        margin: 0; 
+        display: flex;
+        justify-content: center; 
+    }
+    
+    nav li {
+        margin: 15px; 
+    }
+    
+    nav a {
+        display: block;
+        padding: 15px 30px; 
+        background-color: #344251; 
+        color: rgb(244, 242, 242); 
+        text-decoration: none; 
+        border-radius: 5px;
+        transition: background-color 0.3s;
+    }
+    
+    nav a:hover {
+        background-color: #13467d;
+    }
+
+    .video-container {
+        max-width: 700px; 
+        margin: 20px auto; 
+    }
+    
+    .video-container iframe {
+        width: 100%; 
+        height: 400px; 
+        border: 0;
+    }
+
+    .forms {
+        max-width: 600px;
+        margin: 50px auto;
+        padding: 20px;
+        background-color: rgba(255, 255, 255, 0.9);
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+    
+    .forms label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+        color: #beb1e9;
+    }
+    
+    .forms input,
+    .forms textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 1em;
+        background-color: #f9f9f9;
+        transition: border-color 0.3s ease;
+    }
+    
+    .forms input:focus,
+    .forms textarea:focus {
+        border-color: #13467d;
+        outline: none;
+    }
+    
+    .forms button {
+        display: block;
+        width: 100%;
+        padding: 10px 15px;
+        background-color: #13467d;
+        color: #fff;
+        font-size: 1em;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease, transform 0.2s ease;
+    }
+    
+    .forms button:hover {
+        background-color: #0a2f55;
+        transform: translateY(-2px);
+    }
+    
+    .forms button:active {
+        transform: translateY(0);
+    }
+
+    .forms{
+        background-color: #0a2f55;
+    }
+    
+    
+    
+
+
+
+
